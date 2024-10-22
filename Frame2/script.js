@@ -40,7 +40,7 @@ for (const product of products) {
   productsGrid.appendChild(productItem);
 
   const image = document.createElement("div");
-  image.classList.add("image-placeholder");
+  image.classList.add("image");
   productItem.appendChild(image);
 
   const info = document.createElement("div");
