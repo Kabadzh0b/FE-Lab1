@@ -25,25 +25,21 @@ main {
   text-align: center;
   margin: 1rem 0;
 }
-
-.logo-container {
+.header .logo-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.logo-image {
+.header .logo-container .logo-image {
   width: 150px;
   height: 150px;
   margin: 0 auto;
 }
-
-.logo-text {
+.header .logo-container .logo-text {
   font-size: 2rem;
   margin-top: 0.5rem;
 }
-
-.slogan {
+.header .slogan {
   font-size: 1rem;
   color: #555;
 }
@@ -55,8 +51,7 @@ main {
   width: 100%;
   align-items: center;
 }
-
-.feature-box {
+.content .feature-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,13 +61,11 @@ main {
   padding: 1rem;
   text-align: center;
 }
-
-.feature-text {
+.content .feature-box .feature-text {
   width: 100%;
   margin-top: 1rem;
 }
-
-.feature-image {
+.content .feature-box .feature-image {
   width: 80px;
   height: 80px;
 }
@@ -83,16 +76,14 @@ main {
   align-items: center;
   width: 100%;
 }
-
-.email-input {
+.subscribe-section .email-input {
   width: 100%;
   max-width: 300px;
   padding: 0.5rem;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-
-.subscribe-button {
+.subscribe-section .subscribe-button {
   width: 100%;
   max-width: 150px;
   padding: 0.5rem;
@@ -102,32 +93,27 @@ main {
   border: none;
   cursor: pointer;
 }
-
-.subscribe-button:hover {
+.subscribe-section .subscribe-button:hover {
   background-color: #0056b3;
 }
 
-/* Footer Section */
 .footer {
   width: 100%;
   background-color: #f5f5f5;
   padding: 1rem;
   text-align: center;
 }
-
-.footer-list {
+.footer .footer-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
-
-.footer-list ul {
+.footer .footer-list ul {
   list-style: none;
   padding: 0;
 }
-
-.footer-list li {
+.footer .footer-list ul li {
   padding: 0.5rem 0;
 }
 
@@ -135,43 +121,37 @@ main {
   .header {
     flex-direction: row;
   }
-
-  .logo-container {
+  .header .logo-container {
     flex-direction: row;
   }
-
   .content {
     flex-direction: row;
     justify-content: center;
   }
-
-  .feature-box {
+  .content .feature-box {
     flex-direction: row;
     width: 400px;
   }
-
-  .feature-text {
+  .content .feature-box .feature-text {
     width: 60%;
     margin-top: 0;
   }
-
   .subscribe-section {
     flex-direction: row;
     justify-content: center;
   }
-
-  .email-input {
+  .subscribe-section .email-input {
     width: 250px;
     margin-right: 1rem;
     margin-bottom: 0;
   }
-
-  .subscribe-button {
+  .subscribe-section .subscribe-button {
     width: auto;
   }
-
   .footer-list {
     flex-direction: row;
     justify-content: space-around;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
